@@ -30,14 +30,14 @@ def time_to_seconds(time):
 ## Commands --------------------------------
 @bot.on_message(filters.command(['start']))
 def start(client, message):
-    darkprince = f'👋 Hello @{message.from_user.username}\n\n [😇😇](https://telegra.ph/file/516b02a5e8631da27885d.jpg)\n I\'m MUSIC ZONE OFFICIAL BOT, I can upload songs from YouTube. Type /song song name:'
+    darkprince = f'👋 Hello @{message.from_user.username}\n\n [😇😇](https://telegra.ph/file/3589b529c952063c7220b.jpg)\n I\'m DMG-X FFICIAL BOT, I can upload songs from YouTube. Type /song song name:'
     message.reply_text(
         text=darkprince, 
         quote=False,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('MY OFFICIAL GROUP', url='https://t.me/official_music_zone'),
+                    InlineKeyboardButton('MY OFFICIAL GROUP', url='https://t.me/Dark_music_Gangex_2021'),
                     
                 ]
             ]
